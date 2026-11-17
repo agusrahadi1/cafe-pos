@@ -1,0 +1,7 @@
+backend (Port 5000): 
+cd backend
+node dist/main.js
+
+Frontend (Port 5001):
+cd frontend
+npx next start -p 5001

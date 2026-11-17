@@ -1,0 +1,15 @@
+Visual Style & Camera: Cinematic 4k commercial film, shot on Arri Alexa Mini LF 35mm lens, warm natural cafe ambient, shallow depth of field, golden hour afternoon lighting (3200K), soft shadows, color graded in warm teal and amber tone.
+Consistent Characters:
+• Customer ("Maya"): Young Indonesian female, 24 years old, natural wavy black shoulder-length hair, wearing an oversized beige cream linen shirt and casual jeans, minimal aesthetic makeup, friendly modern expression.
+• Owner/Barista ("Rian"): Young Indonesian male, 28 years old, neat taper fade haircut, wearing a dark brown canvas/leather barista apron over a plain black t-shirt, warm confident smile.
+Consistent Environment: A modern aesthetic tropical-industrial coffee shop in Indonesia, teak wood tables, polished exposed concrete walls, lush indoor monstera plants, large sunlit glass windows.
+upside-down phone, inverted screen, backward phone screen, mirrored display, flipped camera, wrong screen orientation, deformed hands, extra fingers, floating fingers, unnatural hand grip, robotic stiff motion, twitching movements, uncanny valley, CGI render, cartoon, blurry, distorted face, watermark, text glitches.
+
+📍 SCENE 4 (00:18 – 00:24 | 6 Detik)
+
+Fokus Gerakan: Interaksi fisik manusia yang nyata (menyeruput kopi dingin & tap HP santai).
+
+Trik Realisme: Menampilkan gelas kopi berembun es batu asli, bukan 3D render. Maya memegang HP di meja dengan satu tangan secara wajar.
+Prompt Google Flow:
+text
+Hyperrealistic live-action medium shot. On the wooden table sits an iced caramel latte in a sweat-beaded glass cup with melting ice cubes and a flaky golden croissant on a ceramic plate. Maya (young Indonesian woman in beige linen shirt) holds the glass cup with one hand, taking a natural slow sip through an eco-friendly straw, looking genuinely delighted. Her smartphone rests flat upright on the table showing a clean green checkmark payment confirmation screen. Soft warm golden-hour rim light on her hair, subtle natural human motion, organic depth of field, 4k cinema camera.

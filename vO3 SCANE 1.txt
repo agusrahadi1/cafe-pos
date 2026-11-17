@@ -1,0 +1,17 @@
+Visual Style & Camera: Cinematic 4k commercial film, shot on Arri Alexa Mini LF 35mm lens, warm natural cafe ambient, shallow depth of field, golden hour afternoon lighting (3200K), soft shadows, color graded in warm teal and amber tone.
+Consistent Characters:
+• Customer ("Maya"): Young Indonesian female, 24 years old, natural wavy black shoulder-length hair, wearing an oversized beige cream linen shirt and casual jeans, minimal aesthetic makeup, friendly modern expression.
+• Owner/Barista ("Rian"): Young Indonesian male, 28 years old, neat taper fade haircut, wearing a dark brown canvas/leather barista apron over a plain black t-shirt, warm confident smile.
+Consistent Environment: A modern aesthetic tropical-industrial coffee shop in Indonesia, teak wood tables, polished exposed concrete walls, lush indoor monstera plants, large sunlit glass windows.
+upside-down phone, inverted screen, backward phone screen, mirrored display, flipped camera, wrong screen orientation, deformed hands, extra fingers, floating fingers, unnatural hand grip, robotic stiff motion, twitching movements, uncanny valley, CGI render, cartoon, blurry, distorted face, watermark, text glitches.
+
+📍 SCENE 1 (00:00 – 00:06 | 6 Detik)
+
+Fokus Gerakan: Santai & Alami. Maya sudah duduk tenang di meja kayu, menghela napas rileks, bukan berjalan terburu-buru.
+
+Trik Realisme: Kamera slow natural breathing handheld (seperti direkam kameramen asli, bukan gerakan komputer kaku).
+Prompt Google Flow:
+text
+Hyperrealistic 4k live-action documentary footage. A real young Indonesian woman (Maya), 24 years old with wavy black hair, wearing an oversized beige linen shirt. She is sitting comfortably at a rustic wooden cafe table near a sunlit window. On the table sits an authentic clear acrylic stand displaying a clean black and white QR code that says "Meja 08". She rests her hands naturally on the table and smiles relaxed. Soft afternoon sun rays, natural eye blinking, gentle realistic micro-movements, depth of field with creamy cafe background blur. 35mm lens, 24fps film grain, ultra photorealistic.
+
+

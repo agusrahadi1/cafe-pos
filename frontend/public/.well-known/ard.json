@@ -1,0 +1,33 @@
+{
+  "$schema": "https://agenticresourcediscovery.org/schemas/v1/ard.json",
+  "specVersion": "1.0",
+  "host": {
+    "displayName": "CafePOS",
+    "identifier": "did:web:cafe.abstech.web.id"
+  },
+  "entries": [
+    {
+      "identifier": "urn:air:cafe.abstech.web.id:api:pos-ordering",
+      "displayName": "CafePOS Table QR Ordering & Point of Sale",
+      "type": "application/openapi+json",
+      "url": "https://api.abstech.web.id/api/docs-json",
+      "description": "Sistem POS Kasir dan Pemesanan Mandiri Meja QR Kafe dengan pembayaran QRIS otomatis.",
+      "representativeQueries": [
+        "lihat menu dan pesan makanan di meja",
+        "buat pesanan kasir dan bayar dengan QRIS",
+        "cek status antrian koki di dapur"
+      ]
+    },
+    {
+      "identifier": "urn:air:cafe.abstech.web.id:llm:overview",
+      "displayName": "CafePOS LLM Knowledge Base",
+      "type": "text/markdown",
+      "url": "https://cafe.abstech.web.id/llms.txt",
+      "description": "Dokumentasi dan ringkasan arsitektur platform CafePOS untuk Large Language Models.",
+      "representativeQueries": [
+        "bagaimana cara kerja sistem POS CafePOS",
+        "apa fitur yang disediakan oleh CafePOS"
+      ]
+    }
+  ]
+}

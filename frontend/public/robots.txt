@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /superadmin/
+Disallow: /admin/
+Disallow: /api/
+
+Sitemap: https://cafe.abstech.web.id/sitemap.xml
+LLM-Text: https://cafe.abstech.web.id/llms.txt
+LLM-FullText: https://cafe.abstech.web.id/llms-full.txt

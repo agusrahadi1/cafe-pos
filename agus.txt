@@ -1,0 +1,3 @@
+Email: superadmin@cafepos.com
+
+Password: superadmin123

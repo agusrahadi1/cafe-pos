@@ -1,0 +1,15 @@
+Visual Style & Camera: Cinematic 4k commercial film, shot on Arri Alexa Mini LF 35mm lens, warm natural cafe ambient, shallow depth of field, golden hour afternoon lighting (3200K), soft shadows, color graded in warm teal and amber tone.
+Consistent Characters:
+• Customer ("Maya"): Young Indonesian female, 24 years old, natural wavy black shoulder-length hair, wearing an oversized beige cream linen shirt and casual jeans, minimal aesthetic makeup, friendly modern expression.
+• Owner/Barista ("Rian"): Young Indonesian male, 28 years old, neat taper fade haircut, wearing a dark brown canvas/leather barista apron over a plain black t-shirt, warm confident smile.
+Consistent Environment: A modern aesthetic tropical-industrial coffee shop in Indonesia, teak wood tables, polished exposed concrete walls, lush indoor monstera plants, large sunlit glass windows.
+upside-down phone, inverted screen, backward phone screen, mirrored display, flipped camera, wrong screen orientation, deformed hands, extra fingers, floating fingers, unnatural hand grip, robotic stiff motion, twitching movements, uncanny valley, CGI render, cartoon, blurry, distorted face, watermark, text glitches.
+
+📍 SCENE 3 (00:12 – 00:18 | 6 Detik)
+
+Fokus Solusi Masalah: Tablet kasir ditaruh di atas dok meja (dock stand), menghadap tegak ke arah barista secara normal (tidak melayang/terbalik).
+
+Trik Realisme: Sudut dari samping bahu Barista (over-the-shoulder barista view) melihat layar POS kasir yang tegak di meja counter.
+Prompt Google Flow:
+text
+Hyperrealistic 4k footage from behind-the-counter side angle. A real young Indonesian male barista wearing a dark brown canvas apron over a black t-shirt stands behind a modern wooden coffee bar. On the counter is a landscape-oriented POS tablet mounted on a wooden desk stand, tilted upright facing him correctly. A gentle green notification banner appears on the tablet screen saying "Order Masuk: Meja 08". Right beside the tablet, a compact white thermal receipt printer naturally feeds a 5cm paper order ticket upward. The barista nods with a calm, genuine smile and reaches for a glass cup. Authentic cafe sounds, realistic physics, steady camera, 24fps live-action.

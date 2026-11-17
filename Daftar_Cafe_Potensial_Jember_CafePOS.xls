@@ -1,0 +1,857 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Title>Daftar Kafe Potensial Jember - Prospek CafePOS</Title>
+  <Subject>Data Prospek Kafe dan Coffee Shop Jember</Subject>
+  <Author>CafePOS Business Development</Author>
+  <LastAuthor>Teknisi</LastAuthor>
+  <Created>2026-11-16T03:00:37Z</Created>
+  <LastSaved>2026-11-16T07:55:22Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>7485</WindowHeight>
+  <WindowWidth>20490</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#333333"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="2"
+     ss:Color="#0F172A"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#334155"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#334155"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#334155"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#FFFFFF"
+    ss:Bold="1"/>
+   <Interior ss:Color="#0F172A" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#CBD5E1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#CBD5E1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#CBD5E1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#CBD5E1"/>
+   </Borders>
+   <Interior ss:Color="#F8FAFC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#CBD5E1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#CBD5E1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#CBD5E1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#CBD5E1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#333333"
+    ss:Bold="1"/>
+   <Interior ss:Color="#F8FAFC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#CBD5E1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#CBD5E1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#CBD5E1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#CBD5E1"/>
+   </Borders>
+   <Interior ss:Color="#F8FAFC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#CBD5E1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#CBD5E1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#CBD5E1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#CBD5E1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#008000"
+    ss:Bold="1"/>
+   <Interior ss:Color="#DCFCE7" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#CBD5E1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#CBD5E1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#CBD5E1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#CBD5E1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#3366FF"
+    ss:Underline="Single"/>
+   <Interior ss:Color="#EFF6FF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s69">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#CBD5E1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#CBD5E1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#CBD5E1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#CBD5E1"/>
+   </Borders>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s70">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#CBD5E1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#CBD5E1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#CBD5E1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#CBD5E1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#333333"
+    ss:Bold="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s71">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#CBD5E1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#CBD5E1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#CBD5E1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#CBD5E1"/>
+   </Borders>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s72">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#CBD5E1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#CBD5E1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#CBD5E1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#CBD5E1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#993300"
+    ss:Bold="1"/>
+   <Interior ss:Color="#FEF3C7" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Daftar Cafe Potensial Jember">
+  <Table ss:ExpandedColumnCount="12" ss:ExpandedRowCount="41" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="20.0625">
+   <Column ss:Width="18.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="170.25"/>
+   <Column ss:Width="132.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="279.75"/>
+   <Column ss:Width="139.5"/>
+   <Column ss:Width="84.75"/>
+   <Column ss:Width="177.75"/>
+   <Column ss:Width="116.25"/>
+   <Column ss:Width="114"/>
+   <Column ss:Width="218.25"/>
+   <Column ss:Width="356.25"/>
+   <Column ss:Width="102.75"/>
+   <Row ss:AutoFitHeight="0" ss:Height="27.9375">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">No</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Nama Kafe / Coffee Shop</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Kawasan / Area</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Alamat Lengkap</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Nomor Telepon / WA</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Jam Operasional</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Tipe Tempat &amp; Konsep</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Kapasitas Tempat</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Tingkat Prioritas Lead</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Fitur CafePOS Paling Dibutuhkan</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Analisis Masalah &amp; Peluang Prospek</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Tautan Google Maps</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Grand Cafe Jember</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Sumbersari (Kampus UNEJ)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Jl. Jawa No.28A Lt. 2-3, Tegal Boto Lor, Sumbersari, Jember 68121</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">+62 821-1633-4779</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">10.00 – 24.00 WIB</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Rooftop &amp; Indoor Modern Cafe (2 Lantai)</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Besar (150+ orang)</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Prioritas Sangat Tinggi</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">QR Table Ordering 2 Lantai, Kitchen Display (KDS), Multi-printer (Bar &amp; Kitchen)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Area 2 lantai menyulitkan pelayan bolak-balik. Tamu di lantai 3 sering terlambat dilayani. QR order langsung potong komplain tamu.</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="https://www.google.com/maps/search/?api=1&amp;query=Grand+Cafe+Jember+Jl+Jawa"><Data
+      ss:Type="String">Buka di Google Maps</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Senja Coffee &amp; Kitchen</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Patrang (Gebang)</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Jl. Merak No.789, Gebang Krajan, Gebang, Patrang, Jember 68117</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">+62 822-4538-0005</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">10.00 – 23.00 WIB</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Aesthetic Garden &amp; Semi-Outdoor Resto</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Besar (120+ orang)</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Prioritas Sangat Tinggi</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">QR Meja Outdoor Gazebo, Payment Gateway QRIS, Split Bill</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Area taman outdoor luas, kasir di depan. Pelayan sering tidak melihat tamu yang mau order tambahan camilan/minuman.</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="https://www.google.com/maps/search/?api=1&amp;query=Senja+Coffee+Kitchen+Jember"><Data
+      ss:Type="String">Buka di Google Maps</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Perasa Coffee &amp; Eatery (24 Jam)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Sumbersari (Kampus)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Jl. Sumatra No.128, Tegal Boto Lor, Sumbersari, Jember 68121</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">+62 853-6656-7799</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Buka 24 Jam</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">24/7 Co-working &amp; Coffee Space Mahasiswa</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Sedang-Besar (80-100 orang)</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Prioritas Sangat Tinggi</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Shift Kasir 24 Jam, QR Self-Ordering Meja, Realtime Stock</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Shift malam minim kasir. Mahasiswa yang nugas malam bisa pesan makanan langsung lewat QR tanpa antre di bar kasir.</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="https://www.google.com/maps/search/?api=1&amp;query=Perasa+Coffee+Eatery+Jember"><Data
+      ss:Type="String">Buka di Google Maps</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Bento Kopi Jember</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Sumbersari (Antirogo)</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Jl. Tawangmangu, Antirogo, Sumbersari, Jember 68125</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">+62 823-3489-2237</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">09.00 – 01.00 WIB</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Large Open Space &amp; Komunitas Cafe</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Sangat Besar (200+ orang, 100+ meja)</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Prioritas Sangat Tinggi</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">QR Table Ordering Skala Besar, Kitchen Display, Monitor Antrean</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Jumlah meja ratusan. Pelayan manual sering salah antar meja dan lama mencatat. QR ordering otomatis menurunkan beban staf 60%.</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="https://www.google.com/maps/search/?api=1&amp;query=Bento+Kopi+Jember"><Data
+      ss:Type="String">Buka di Google Maps</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Kafe Kolong Jember</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Sumbersari (Mastrip)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Bawah Jembatan Jarwo, Jl. Mastrip, Krajan Timur, Sumbersari, Jember 68121</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">+62 811-3446-313</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">18.00 – 01.00 WIB</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Heritage / Underground Riverbank Cafe Unik</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Besar (100+ orang)</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Prioritas Tinggi</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">QR Meja Cepat, Laporan Penjualan Real-time, Offline-first</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Tempat ikonik di kolong jembatan dengan tata letak memanjang. Mobilitas kasir terbatas, QR ordering sangat memudahkan pengunjung.</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="https://www.google.com/maps/search/?api=1&amp;query=Kafe+Kolong+Jember"><Data
+      ss:Type="String">Buka di Google Maps</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Kafe Tebing (Taman Botani Sukorambi)</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Sukorambi (Wisata)</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Kompleks Wisata Taman Botani, Jl. Mujahir, Sukorambi, Jember 68151</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">+62 811-3003-6000 / +62 851-0070-7600</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">08.00 – 21.00 WIB</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Scenic Clifftop Cafe &amp; Nature Resto</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Besar (150+ orang)</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Prioritas Sangat Tinggi</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">QR Order Spot Wisata, Multi-outlet Menu, POS Kasir Cloud</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Lokasi di atas bukit/tebing dengan kontur berundak. Pelayan sangat kelelahan jika harus antar menu fisik naik-turun tangga.</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="https://www.google.com/maps/search/?api=1&amp;query=Kafe+Tebing+Taman+Botani+Sukorambi+Jember"><Data
+      ss:Type="String">Buka di Google Maps</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Kopi Cak Wang (Karimata)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Sumbersari (Karimata)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Jl. Karimata No.34, Gumuk Kerikil, Sumbersari, Jember 68121</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">+62 812-3488-0318</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">09.00 – 00.00 WIB</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Traditional-Modern Coffeehouse Populer</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Besar (100+ orang)</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Prioritas Tinggi</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Kasir Layar Sentuh Cepat, Barcode Scanner, QRIS Otomatis</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Antrean pembayaran saat malam sangat panjang. Fitur fast-checkout dan self-order di meja akan mengurai antrean kasir.</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="https://www.google.com/maps/search/?api=1&amp;query=Kopi+Cak+Wang+Karimata+Jember"><Data
+      ss:Type="String">Buka di Google Maps</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Kopi Cak Wang (Mastrip 24 Jam)</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Sumbersari (Mastrip)</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Jl. Mastrip No.53, Krajan Barat, Sumbersari, Jember 68121</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">+62 812-3488-0318</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Buka 24 Jam</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">24/7 Kedai Kopi &amp; Kuliner Mahasiswa</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Besar (100+ orang)</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Prioritas Sangat Tinggi</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Multi-branch Management (Pusat &amp; Cabang), Multi-user Role Kasir</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Memiliki 2 cabang utama di Jember. Owner butuh dashboard superadmin untuk memantau omzet kedua cabang dari satu HP.</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="https://www.google.com/maps/search/?api=1&amp;query=Kopi+Cak+Wang+Mastrip+Jember"><Data
+      ss:Type="String">Buka di Google Maps</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Tanaloka Eatery &amp; Coffee</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Sumbersari (Kalimantan)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Jl. Kalimantan No.68, Krajan Timur, Sumbersari, Jember 68121</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">+62 812-3436-7890</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">10.00 – 23.00 WIB</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Tropical Aesthetic Cafe &amp; Western-Indo Food</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Sedang-Besar (80 orang)</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Prioritas Tinggi</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Katalog Visual Menu Digital Foto HD, Modifikasi Topping/Addon</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Menu makanan dan mocktail premium membutuhkan foto menarik di menu digital agar menaikkan rata-rata nilai belanja tamu.</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="https://www.google.com/maps/search/?api=1&amp;query=Tanaloka+Eatery+Jember"><Data
+      ss:Type="String">Buka di Google Maps</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Latar Semeru Cafe &amp; Resto</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Sumbersari (Semeru/Kloncing)</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Jl. Semeru, Kloncing, Karangrejo, Sumbersari, Jember 68124</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">+62 812-3357-9880</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">11.00 – 23.00 WIB</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Spacious Hills Semi-Outdoor Cafe &amp; Sunset View</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Sangat Besar (150+ orang)</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Prioritas Tinggi</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">QR Table Ordering Terbuka, Split Printer Dapur &amp; Bar</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Banyak spot outdoor terpisah di lereng bukit. Pelanggan butuh kemudahan pesan tanpa perlu jalan jauh ke kasir.</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="https://www.google.com/maps/search/?api=1&amp;query=Latar+Semeru+Cafe+Jember"><Data
+      ss:Type="String">Buka di Google Maps</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">11</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">888 Coffee &amp; More (Triple Eight)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Sumbersari (Karimata)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Ruko Karimata Square Blok B2, Jl. Karimata, Sumbersari, Jember 68121</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">+62 813-3388-8882</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">09.00 – 23.00 WIB</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Specialty Coffee, Brunch &amp; Business Meeting Cafe</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Sedang (60 orang)</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Prioritas Tinggi</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Split-Bill per Tamu, Cetak Struk Formal, Member Loyalty</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Sering digunakan meeting dosen, dokter, dan pengusaha. Fitur split bill per individu dan nota resmi sangat dicari.</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="https://www.google.com/maps/search/?api=1&amp;query=888+Coffee+More+Karimata+Jember"><Data
+      ss:Type="String">Buka di Google Maps</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Sumber Redjo Coffee &amp; Eatery</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Sumbersari (Kalimantan)</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Jl. Kalimantan No.37, Krajan Timur, Sumbersari, Jember 68121</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">+62 852-3298-1122</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">10.00 – 24.00 WIB</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Vintage-Industrial Cafe &amp; Coffee Roaster</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Sedang-Besar (75 orang)</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Prioritas Tinggi</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Kitchen Display System, Queue Number Display</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Sering melayani pesanan manual brew khusus. KDS di bar barista memastikan urutan antrean racikan kopi presisi.</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="https://www.google.com/maps/search/?api=1&amp;query=Sumber+Redjo+Coffee+Eatery+Jember"><Data
+      ss:Type="String">Buka di Google Maps</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">13</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">De Terrace Cafe &amp; Resto</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Kaliwates (Kauman)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Jl. Kauman No.42, Kepatihan, Kaliwates, Jember 68131</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">+62 812-3344-9900</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">10.00 – 22.00 WIB</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Cozy Family Cafe &amp; Casual Dining Tengah Kota</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Sedang (70 orang)</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Prioritas Tinggi</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Manajemen Meja Reservasi, Cetak Order Dapur Otomatis</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Sering menerima reservasi arisan dan ulang tahun. Fitur pemesanan meja dan deposit pembayaran sangat relevan.</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="https://www.google.com/maps/search/?api=1&amp;query=De+Terrace+Cafe+Resto+Jember"><Data
+      ss:Type="String">Buka di Google Maps</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">14</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Grufi Cafe &amp; Eatery</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Patrang (Srikoyo)</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Jl. Srikoyo, Krajan, Patrang, Jember 68118</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">+62 822-3112-4455</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">09.00 – 23.00 WIB</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Greenery Minimalist Cafe Dekat RSUD</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Sedang (60 orang)</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Prioritas Tinggi</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Takeaway Fast-Order, Struk WhatsApp, QR Meja</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Dekat RSUD Soebandi. Banyak tenaga medis butuh pemesanan cepat takeaway maupun dine-in efisien.</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="https://www.google.com/maps/search/?api=1&amp;query=Grufi+Cafe+Eatery+Jember"><Data
+      ss:Type="String">Buka di Google Maps</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">15</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Corakna Chocolate Cafe &amp; Resto</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Sumbersari (Jl. Jawa)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Jl. Jawa No.39A, Tegal Boto Lor, Sumbersari, Jember 68121</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">+62 813-5888-7711</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">10.00 – 23.00 WIB</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Spesialis Minuman Cokelat Asli Jember &amp; Cafe Hangout</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Sedang (60 orang)</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Prioritas Tinggi</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Menu Varian &amp; Add-on Topping Kompleks, QR Self-Order</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Pilihan menu cokelat memiliki banyak modifikasi (persentase cokelat, susu, topping). Menu digital QR memangkas waktu kasir menjelaskan.</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="https://www.google.com/maps/search/?api=1&amp;query=Corakna+Chocolate+Cafe+Jl+Jawa+Jember"><Data
+      ss:Type="String">Buka di Google Maps</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">16</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">My Way Café Jember</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Sumbersari (Mastrip)</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Jl. Mastrip No.73, Krajan Barat, Sumbersari, Jember 68121</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">+62 851-0123-9988</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Buka 24 Jam</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">24 Jam Cafe Mahasiswa &amp; Co-working Space</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Besar (100 orang)</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Prioritas Sangat Tinggi</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Laporan Shift Kasir 24 Jam, QR Self-Ordering Meja</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Jam operasional tanpa henti membutuhkan rekap kas per shift kasir yang otomatis tanpa selisih uang fisik.</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="https://www.google.com/maps/search/?api=1&amp;query=My+Way+Cafe+Jl+Mastrip+Jember"><Data
+      ss:Type="String">Buka di Google Maps</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">17</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">KAVA.id Restaurant &amp; Cafe</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Sumbersari (Danau Toba)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Jl. Danau Toba 7 No.137, Tegalgede, Sumbersari, Jember 68124</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">+62 811-365-1137</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">10.00 – 23.00 WIB</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Fine-Casual Resto &amp; Aesthetic Cafe Berkelas</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Besar (100+ orang)</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Prioritas Sangat Tinggi</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">UI Menu Digital Eksklusif, Kitchen Display System, Tax &amp; Service Charge Setting</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Resto kafe segmen menengah ke atas yang mengedepankan estetika. Membutuhkan UI QR order yang modern dan elegan.</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="https://www.google.com/maps/search/?api=1&amp;query=KAVA.id+Restaurant+Cafe+Danau+Toba+Jember"><Data
+      ss:Type="String">Buka di Google Maps</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">18</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Trisi Kopi Jember</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Sumbersari (Danau Toba)</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Jl. Danau Toba No.31, Tegalgede, Sumbersari, Jember 68124</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">+62 822-4412-8899</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">10.00 – 24.00 WIB</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Cozy Garden Workspace &amp; Specialty Coffee</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Sedang-Besar (80 orang)</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Prioritas Sangat Tinggi</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">QR Order Meja (Memicu Re-Order), QRIS Terintegrasi</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Mayoritas tamu WFC berjam-jam. Fitur QR di meja mempermudah tamu pesan kopi ronde ke-2 tanpa meninggalkan laptop.</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="https://www.google.com/maps/search/?api=1&amp;query=Trisi+Kopi+Danau+Toba+Jember"><Data
+      ss:Type="String">Buka di Google Maps</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">19</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Memori Baik Coffee &amp; Sourdough</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Sumbersari (Danau Toba)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Jl. Danau Toba No.18, Tegalgede, Sumbersari, Jember 68124</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">+62 813-3112-9922</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">08.00 – 22.00 WIB</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Artisanal Bakery &amp; Specialty Coffee Shop</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Sedang (50 orang)</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Prioritas Tinggi</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Real-time Pastry Inventory Track, POS Kasir Cepat</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Pastry &amp; sourdough diproduksi terbatas harian. Fitur auto-sold out di menu digital CafePOS mencegah pesanan roti yang habis.</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="https://www.google.com/maps/search/?api=1&amp;query=Memori+Baik+Coffee+Danau+Toba+Jember"><Data
+      ss:Type="String">Buka di Google Maps</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">20</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">De Nusantara Cafe Jember</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Sumbersari (Danau Toba)</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Jl. Danau Toba (Depan SMK Trunojoyo), Sumbersari, Jember 68124</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">+62 823-3118-7722</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">11.00 – 23.00 WIB</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Nusantara Themed Cafe &amp; Traditional Fusion Food</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Besar (120 orang)</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Prioritas Tinggi</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">QR Meja Gazebo Lesehan, Struk Dapur Bluetooth</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Banyak spot saung lesehan bambu terpisah. QR meja memudahkan keluarga pesan tanpa bolak-balik ke kasir depan.</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="https://www.google.com/maps/search/?api=1&amp;query=De+Nusantara+Cafe+Danau+Toba+Jember"><Data
+      ss:Type="String">Buka di Google Maps</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">21</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Alocasia Cafe &amp; Eatery</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Sumbersari (Jl. Riau)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Jl. Riau Gang Paving No.8, Krajan Barat, Sumbersari, Jember 68121</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">+62 822-5788-3311</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">11.00 – 23.00 WIB</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Botanical Hidden Gem Cafe &amp; Garden Chill</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Sedang-Besar (75 orang)</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Prioritas Sangat Tinggi</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">QR Order Sudut Taman, Tombol Panggil Pelayan (Call Waiter)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Konsep hidden gem dengan banyak sudut taman privat. QR order sangat membantu karena pelayan tidak selalu melihat meja tamu.</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="https://www.google.com/maps/search/?api=1&amp;query=Alocasia+Cafe+Eatery+Jember"><Data
+      ss:Type="String">Buka di Google Maps</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">22</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Foodgasm Bistro &amp; Cafe</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Sumbersari (Jl. Jawa)</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Jl. Jawa No.37, Tegal Boto Lor, Sumbersari, Jember 68121</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">+62 812-5988-1234</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">11.00 – 23.00 WIB</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Western &amp; Asian Fusion Bistro Cafe</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Sedang (60 orang)</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Prioritas Tinggi</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Kitchen &amp; Beverage Routing Printer, Manajemen Meja Dine-In</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Menu makanan pasta/steak dan dessert butuh perutean tiket otomatis ke koki dapur dan bartender.</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="https://www.google.com/maps/search/?api=1&amp;query=Foodgasm+Bistro+Cafe+Jl+Jawa+Jember"><Data
+      ss:Type="String">Buka di Google Maps</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">23</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Tiara Jember Resto &amp; Cafe</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Kaliwates (Gatot Subroto)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Jl. Gatot Subroto No.15, Tembaan, Kepatihan, Kaliwates, Jember 68131</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">+62 331-484111 / +62 811-352-8811</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">09.00 – 22.00 WIB</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Classic Heritage Resto &amp; Executive Cafe</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Besar (120+ orang)</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Prioritas Tinggi</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Invoicing Faktur Resmi, Split Bill, VIP Room Reservation</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Langganan pejabat dinas dan corporate meeting. Butuh struk faktur pajak/resmi dan pembagian tagihan per rombongan.</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="https://www.google.com/maps/search/?api=1&amp;query=Tiara+Jember+Resto+Cafe+Gatot+Subroto"><Data
+      ss:Type="String">Buka di Google Maps</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Dira Beach Cafe &amp; Resto (Wuluhan)</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Jember Selatan (Wuluhan)</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Kompleks Dira Park, Jl. Dira Park No.1, Pontang, Wuluhan, Jember 68162</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">+62 812-3489-0011 / +62 822-3456-7890</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">08.00 – 22.00 WIB</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Mega Beach Theme Cafe, Waterpark &amp; Resort</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Mega Besar (300+ orang, puluhan gazebo)</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Prioritas Sangat Tinggi (Mega Lead)</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">QR Table Ordering Skala Resort, Multi-Kasir Terintegrasi, Payment Gateway</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Kawasan seluas hektaran. Pengunjung di gazebo waterpark sangat enggan jalan ke kasir depan. QR di tiap gazebo akan melipatgandakan omzet F&amp;B.</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="https://www.google.com/maps/search/?api=1&amp;query=Dira+Beach+Cafe+Wuluhan+Jember"><Data
+      ss:Type="String">Buka di Google Maps</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">25</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Dira Cafe &amp; Resto Kencong</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Jember Barat (Kencong)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Jl. Krakatau No.93, Kencong, Jember 68167</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">+62 812-3213-900 / +62 811-3788-900</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">08.30 – 22.00 WIB</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Modern Family Cafe &amp; Mall Hub Kencong</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Sangat Besar (200+ orang)</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Prioritas Sangat Tinggi (Mega Lead)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Multi-Terminal Kasir POS, Manajemen Stok Bahan Baku, Laporan Cabang</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Pusat keramaian terbesar di Jember Barat. Butuh sistem kasir tahan banting saat akhir pekan yang padat.</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="https://www.google.com/maps/search/?api=1&amp;query=Dira+Cafe+Kencong+Jember"><Data
+      ss:Type="String">Buka di Google Maps</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">26</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Kopitiam Oey Jember</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Kaliwates (Wahid Hasyim)</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Jl. KH Wahid Hasyim No.35, Kepatihan, Kaliwates, Jember 68131</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">+62 812-3567-8910</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">07.00 – 22.00 WIB</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Authentic Vintage Kopitiam &amp; Breakfast Spot</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Sedang (60 orang)</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Prioritas Tinggi</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Quick-Order Morning Rush, Struk Tiket Barista Cepat</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Padat di pagi hari saat jam sarapan kopi &amp; toast. Kasir butuh POS yang bisa input menu dalam hitungan 5 detik.</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="https://www.google.com/maps/search/?api=1&amp;query=Kopitiam+Oey+Jember+Wahid+Hasyim"><Data
+      ss:Type="String">Buka di Google Maps</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">27</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Rasa Cafe &amp; Roastery Jember</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Sumbersari (Jl. Jawa)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Jl. Jawa No.70, Tegal Boto Lor, Sumbersari, Jember 68121</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">+62 821-3991-0022</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">10.00 – 24.00 WIB</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Specialty Coffee Roastery &amp; Artisan Cafe</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Sedang (50 orang)</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Prioritas Tinggi</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">POS Multi-kategori (F&amp;B + Penjualan Beans Kiloan)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Menjual menu minuman kopi dan biji kopi sangrai. CafePOS dapat mengelola kedua jenis produk tersebut secara rapi.</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="https://www.google.com/maps/search/?api=1&amp;query=Rasa+Cafe+Roastery+Jl+Jawa+Jember"><Data
+      ss:Type="String">Buka di Google Maps</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">28</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Mampir Kedai Kopi (Suprapto)</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Sumbersari (Letjen Suprapto)</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Jl. Letjen Suprapto No.88, Kebonsari, Sumbersari, Jember 68122</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">+62 852-3011-2299</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">13.00 – 00.00 WIB</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Industrial Community Coffee Space</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Sedang-Besar (70 orang)</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Prioritas Sedang-Tinggi</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">QR Self-Ordering Event Komunitas, POS Kasir Tablet</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Sering mengadakan workshop dan live session. QR meja mempermudah peserta event memesan tanpa mengantre ke kasir.</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="https://www.google.com/maps/search/?api=1&amp;query=Mampir+Kedai+Kopi+Suprapto+Jember"><Data
+      ss:Type="String">Buka di Google Maps</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">29</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Warung Kopi &amp; Cafe Tebal (Mastrip)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Sumbersari (Mastrip)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Jl. Mastrip No.22, Krajan Timur, Sumbersari, Jember 68121</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">+62 823-3344-5511</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">10.00 – 01.00 WIB</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">High-Volume Modern Warkop Mahasiswa</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Besar (90 orang)</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Prioritas Tinggi</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">POS Ringan via Android HP Murah, Struk Bluetooth</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Volume transaksi makanan ringan dan kopi sachet sangat tinggi. Memerlukan POS yang tidak memberatkan modal awal kasir.</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="https://www.google.com/maps/search/?api=1&amp;query=Warkop+Cafe+Mastrip+Jember"><Data
+      ss:Type="String">Buka di Google Maps</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">30</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Senandung Kopi Jember</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Sumbersari (Panjaitan)</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Jl. Letjen Panjaitan No.112, Gumuk Bago, Sumbersari, Jember 68121</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">+62 813-3665-4433</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">10.00 – 23.30 WIB</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Live Music Venue &amp; Acoustic Coffeehouse</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Besar (100 orang)</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Prioritas Tinggi</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">QR Order Meja (Anti Salah Dengar saat Konser Akustik)</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Suara live music akustik membuat pesanan manual sering salah dengar. QR ordering di meja menyelesaikan kendala noise ini.</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="https://www.google.com/maps/search/?api=1&amp;query=Senandung+Kopi+Panjaitan+Jember"><Data
+      ss:Type="String">Buka di Google Maps</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">31</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Roemah Kopi Jember (Remo Jember)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Patrang (Gebang Cempaka)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Jl. Cempaka No.25, Gebang Krajan, Gebang, Patrang, Jember 68117</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">+62 852-5888-2345</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">10.00 – 23.00 WIB</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Classic Heritage Home Cafe &amp; Resto</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Sedang-Besar (80 orang)</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Prioritas Sangat Tinggi</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">QR Meja Antar-Ruang (Multi-Room), Kitchen Display</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Bangunan rumah tua bersekat-sekat kamar. Tamu di dalam kamar tidak terlihat oleh pelayan. QR meja menghubungkan tamu langsung ke bar.</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="https://www.google.com/maps/search/?api=1&amp;query=Roemah+Kopi+Cempaka+Gebang+Jember"><Data
+      ss:Type="String">Buka di Google Maps</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">The Anglo-Saxon Cafe &amp; Resto</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Kaliwates (Hayam Wuruk)</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Jl. Hayam Wuruk No.158, Gerdu, Sempusari, Kaliwates, Jember 68136</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">+62 812-3499-1123</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">11.00 – 22.00 WIB</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">British Style Classic Cafe &amp; Western Dining</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Sedang (60 orang)</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Prioritas Tinggi</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Struk WhatsApp Paperless, Laporan Penjualan Real-time</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Target pasar premium perumahan elite Hayam Wuruk. Pelanggan menyukai fitur kirim e-receipt langsung ke WA.</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="https://www.google.com/maps/search/?api=1&amp;query=The+Anglo+Saxon+Hayam+Wuruk+Jember"><Data
+      ss:Type="String">Buka di Google Maps</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">33</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Kafe Rollaas Cafe &amp; Resto (PTPN XII)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Kaliwates (Gajah Mada)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Jl. Gajah Mada No.174, Kaliwates Kidul, Kaliwates, Jember 68131</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">+62 331-422111 / +62 811-3030-12</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">09.00 – 23.00 WIB</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Corporate Coffee Heritage Lounge &amp; Resto</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Besar (100 orang)</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Prioritas Tinggi</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Laporan Akuntansi POS, Manajemen Inventori Bahan, Struk Pajak</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Dimiliki BUMN perkebunan. Membutuhkan sistem pencatatan keuangan yang transparan, dapat diaudit, dan rapi.</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="https://www.google.com/maps/search/?api=1&amp;query=Rollaas+Coffee+Gajah+Mada+Jember"><Data
+      ss:Type="String">Buka di Google Maps</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">34</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Kopi Titik Koma (Cabang Jember)</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Sumbersari (Jl. Jawa)</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Jl. Jawa No.15, Tegal Boto Lor, Sumbersari, Jember 68121</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">+62 813-9000-5432</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">08.00 – 22.00 WIB</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Modern Minimalist Artisan Coffee Bar</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Kecil-Sedang (40 orang)</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Prioritas Sedang-Tinggi</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Display Nomor Antrean Layar TV, Fast Checkout</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Banyak pesanan take-away cepat. Integrasi nomor antrean di layar membantu pelanggan menunggu dengan tertib.</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="https://www.google.com/maps/search/?api=1&amp;query=Kopi+Titik+Koma+Jl+Jawa+Jember"><Data
+      ss:Type="String">Buka di Google Maps</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">35</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Caffe D’Boer (D'Boer Vintage Cafe)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Patrang (PB Sudirman / Dekat Stasiun)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Jl. PB Sudirman No.55, Kp. Using, Jemberlor, Patrang, Jember 68118</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">+62 812-4988-7711</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">09.00 – 23.00 WIB</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Vintage Train Station &amp; Colonial Theme Cafe</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Sedang-Besar (70 orang)</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Prioritas Tinggi</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Live Tracking Estimasi Penyajian Menu, Fast POS</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Dekat Stasiun KA Jember. Penumpang kereta butuh kepastian makanan disajikan cepat sebelum jam keberangkatan kereta.</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="https://www.google.com/maps/search/?api=1&amp;query=Caffe+D+Boer+PB+Sudirman+Jember"><Data
+      ss:Type="String">Buka di Google Maps</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">36</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Kedai Kopi Tebal (Danau Toba)</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Sumbersari (Danau Toba)</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Jl. Danau Toba No.89, Tegalgede, Sumbersari, Jember 68124</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">+62 822-9988-7766</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">10.00 – 00.00 WIB</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Budget-Friendly Student Hangout Cafe</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Sedang-Besar (80 orang)</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Prioritas Tinggi</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Aplikasi Kasir Android Hemat Biaya, Rekap Shift</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Target mahasiswa budget bersahabat. Butuh solusi POS modern tanpa perlu berlangganan bulanan jutaan rupiah.</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="https://www.google.com/maps/search/?api=1&amp;query=Kedai+Kopi+Danau+Toba+Jember"><Data
+      ss:Type="String">Buka di Google Maps</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">37</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Houtenhand Beerhouse &amp; Cafe Jember</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Sumbersari (Jl. Karimata)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Jl. Karimata No.64, Gumuk Kerikil, Sumbersari, Jember 68121</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">+62 813-3322-1144</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">16.00 – 01.00 WIB</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Rustic European Pub &amp; Dining Cafe</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Sedang (60 orang)</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Prioritas Sedang-Tinggi</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Tab Meja Terbuka (Open Tab), Split Bill Malam Hari</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Sistem open tab minuman sering kali merepotkan di akhir pembayaran. Fitur digital order per meja CafePOS sangat menolong.</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="https://www.google.com/maps/search/?api=1&amp;query=Houtenhand+Karimata+Jember"><Data
+      ss:Type="String">Buka di Google Maps</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">38</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Toko Kopi Tuku / Mitra Kopi Lokal (Kaliwates)</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Kaliwates (Gajah Mada Ruko)</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Kompleks Ruko Gajah Mada Square, Kaliwates, Jember 68131</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">+62 812-9011-2233</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">08.00 – 21.30 WIB</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Grab-and-Go Modern Coffee Counter</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Kecil (25 orang)</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Prioritas Sedang</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Kasir Kilat (Sub-10 Detik per Transaksi), QRIS Dinamis</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Membutuhkan integrasi QRIS statis maupun dinamis dengan konfirmasi pembayaran otomatis masuk ke layar kasir.</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="https://www.google.com/maps/search/?api=1&amp;query=Kopi+Gajah+Mada+Square+Jember"><Data
+      ss:Type="String">Buka di Google Maps</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s63"><Data ss:Type="Number">39</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Kedai Kopi &amp; Dapur Mami Jember</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Patrang (Baratan)</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Jl. Baratan Timur No.14, Baratan, Patrang, Jember 68112</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">+62 821-4321-9900</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">09.00 – 22.00 WIB</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Homey Garden Cafe &amp; Masakan Tradisional</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Sedang (50 orang)</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Prioritas Tinggi</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Order Meja QR, Cetak Tiket Dapur Masakan</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Konsep rumahan ramah keluarga. Butuh kemudahan pesan tanpa perlu berulang kali memanggil pelayan.</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="https://www.google.com/maps/search/?api=1&amp;query=Kedai+Kopi+Dapur+Mami+Jember"><Data
+      ss:Type="String">Buka di Google Maps</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36">
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Kopite Cafe &amp; Space Jember</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Sumbersari (Jl. Riau)</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Jl. Riau No.23, Krajan Barat, Sumbersari, Jember 68121</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">+62 857-3122-8877</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">10.00 – 23.00 WIB</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Modern Minimalist Work &amp; Study Cafe</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Sedang (60 orang)</Data></Cell>
+    <Cell ss:StyleID="s72"><Data ss:Type="String">Prioritas Tinggi</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Self-Order QR, Paket Menu Bundling Nugas, Struk Digital</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Ramai mahasiswa yang mengerjakan skripsi dan tugas kelompok. Cocok dengan sistem paket combo bundling CafePOS.</Data></Cell>
+    <Cell ss:StyleID="s67" ss:HRef="https://www.google.com/maps/search/?api=1&amp;query=Kopite+Cafe+Jl+Riau+Jember"><Data
+      ss:Type="String">Buka di Google Maps</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:Orientation="Landscape"/>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <FitToPage/>
+   <Print>
+    <FitHeight>100</FitHeight>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <LeftColumnVisible>7</LeftColumnVisible>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>1</SplitHorizontal>
+   <TopRowBottomPane>1</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <ActiveRow>4</ActiveRow>
+     <ActiveCol>11</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

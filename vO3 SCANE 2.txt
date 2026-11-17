@@ -1,0 +1,15 @@
+Visual Style & Camera: Cinematic 4k commercial film, shot on Arri Alexa Mini LF 35mm lens, warm natural cafe ambient, shallow depth of field, golden hour afternoon lighting (3200K), soft shadows, color graded in warm teal and amber tone.
+Consistent Characters:
+• Customer ("Maya"): Young Indonesian female, 24 years old, natural wavy black shoulder-length hair, wearing an oversized beige cream linen shirt and casual jeans, minimal aesthetic makeup, friendly modern expression.
+• Owner/Barista ("Rian"): Young Indonesian male, 28 years old, neat taper fade haircut, wearing a dark brown canvas/leather barista apron over a plain black t-shirt, warm confident smile.
+Consistent Environment: A modern aesthetic tropical-industrial coffee shop in Indonesia, teak wood tables, polished exposed concrete walls, lush indoor monstera plants, large sunlit glass windows.
+upside-down phone, inverted screen, backward phone screen, mirrored display, flipped camera, wrong screen orientation, deformed hands, extra fingers, floating fingers, unnatural hand grip, robotic stiff motion, twitching movements, uncanny valley, CGI render, cartoon, blurry, distorted face, watermark, text glitches.
+
+📍 SCENE 2 (00:06 – 00:12 | 6 Detik)
+
+Fokus Solusi Masalah: Mengunci posisi HP tegak portrait lurus, punggung HP menghadap ke depan meja, layar menghadap ke mata Maya.
+
+Trik Realisme: Gunakan sudut Side-Profile Macro Handheld agar AI tahu persis mana layar depan dan mana kamera belakang.
+Prompt Google Flow:
+text
+Hyperrealistic close-up side angle shot of human hands holding a smartphone. Natural female Indonesian hands holding a modern black smartphone upright vertically in normal portrait orientation, screen facing toward her face, rear camera pointing directly at an acrylic QR code stand on a teak wood table. The upright smartphone screen clearly shows a clean, right-side-up vertical web browser displaying a food menu catalog with emerald green buttons. Her index finger naturally taps the green order button on the screen. Perfectly stable natural hand grip, realistic skin texture, realistic screen perspective without inversion, natural lighting, 4k.

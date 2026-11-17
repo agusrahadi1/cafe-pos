@@ -1,0 +1,20 @@
+# CafePOS - Sistem POS Kasir & Self-Service QR Ordering
+
+> CafePOS adalah platform Point of Sale (POS) cloud multi-tenant modern untuk bisnis F&B (kafe, resto, coffee shop) yang mendukung pemesanan mandiri via scan QR meja, integrasi pembayaran digital otomatis QRIS BorderPay, Kitchen Display System (KDS), dan manajemen multi-outlet.
+
+Situs web resmi: https://cafe.abstech.web.id/
+
+## Ringkasan Fitur & Modul Utama
+- [POS Kasir Interaktif](https://cafe.abstech.web.id/pos): Dashboard kasir dengan alur Kanban visual (Pesanan Baru, Proses Masak, Siap Saji, Selesai), kalkulator uang kembalian instan, dan cetak struk Bluetooth ESC/POS 58mm/80mm.
+- [Pemesanan Mandiri Meja QR](https://cafe.abstech.web.id/demo-cafe): Modul web self-service pelanggan untuk scan QR meja, memilih varian menu (Hot/Ice, Sugar Level, Topping), dan checkout QRIS BorderPay tanpa perlu memanggil pelayan atau install aplikasi.
+- [Layar Koki Dapur (KDS)](https://cafe.abstech.web.id/kitchen): Antarmuka layar dapur real-time untuk koki dan barista dengan audio chime notifikasi pesanan masuk dan timer durasi memasak.
+- [Modul Waiter / Pelayan](https://cafe.abstech.web.id/waiter): Manajemen pesanan meja, pemindahan meja (move table), dan penandaan hidangan yang telah diantar.
+- [Download Aplikasi Kasir Mobile](https://cafe.abstech.web.id/download/app): Unduh file APK Android resmi CafePOS untuk tablet kasir dan smartphone staff.
+- [Superadmin Cloud](https://cafe.abstech.web.id/superadmin): Pusat kontrol multi-tenant platform SaaS untuk pendaftaran kafe baru, manajemen paket kuota, dan audit operasional.
+
+## Dokumentasi Teknis & API
+- [Dokumentasi Lengkap LLM](https://cafe.abstech.web.id/llms-full.txt): Panduan komprehensif struktur API, model data, dan alur integrasi untuk agen AI.
+- [Spesifikasi OpenAPI / Swagger](https://api.abstech.web.id/api/docs): Dokumentasi endpoint REST API backend NestJS.
+
+## Kebijakan & Privasi
+- [Kebijakan Privasi](https://cafe.abstech.web.id/kebijakan-privasi): Ketentuan privasi data pengguna dan transaksi finansial merchant.

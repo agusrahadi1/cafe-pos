@@ -1,0 +1,43 @@
+# CafePOS - Dokumentasi Lengkap Sistem & Panduan Agen AI (LLM Full Spec)
+
+> Panduan arsitektur sistem, alur kerja transaksi, dan spesifikasi antarmuka CafePOS untuk perayap web cerdas dan agen AI (Agentic Browsing).
+
+URL Utama: https://cafe.abstech.web.id/
+API Endpoint: https://api.abstech.web.id/api/v1/
+
+## 1. Arsitektur Multi-Tenant
+CafePOS menggunakan model isolasi multi-tenant berbasis subpath dan header tenant:
+- Setiap kafe terdaftar memiliki slug unik: `https://cafe.abstech.web.id/[slug]`
+- Portal kasir tenant: `https://cafe.abstech.web.id/[slug]/pos`
+- Portal koki dapur tenant: `https://cafe.abstech.web.id/[slug]/kitchen`
+- Portal pelayan tenant: `https://cafe.abstech.web.id/[slug]/waiter`
+- Portal admin gerai: `https://cafe.abstech.web.id/[slug]/admin/*`
+
+## 2. Modul Pemesanan Meja QR Pelanggan
+Alur pemesanan tanpa kontak (contactless ordering):
+1. Setiap meja memiliki QR Token unik: `https://cafe.abstech.web.id/order/[token]`
+2. Pelanggan memindai QR code dan melihat katalog menu digital dengan kategori dan status ketersediaan stok.
+3. Pelanggan dapat menyesuaikan varian menu (opsi dingin/panas, level gula, topping tambahan).
+4. Data nama dan nomor telepon pelanggan disimpan di `localStorage` peramban untuk kenyamanan pemesanan berulang.
+5. Checkout menghasilkan QRIS dinamis dari payment gateway BorderPay.
+6. Webhook backend mendeteksi pelunasan dan otomatis memancarkan status `PAID` via SSE (Server-Sent Events) atau WebSocket ke layar kasir dan dapur.
+
+## 3. Modul POS Kasir
+- Alur kerja kasir: Pesanan Walk-in / Meja -> Validasi Menu -> Pembayaran Tunai atau QRIS BorderPay.
+- Kalkulator uang pas dan kembalian otomatis dengan format angka monospaced rupiah.
+- Pencetakan struk termal menggunakan protokol Bluetooth ESC/POS (karakter 58mm / 80mm).
+
+## 4. Keamanan & Perizinan Akses
+- Role Pengguna:
+  - `SUPERADMIN`: Hak akses penuh ke seluruh tenant, analitik pendapatan platform MRR, dan manajemen biaya admin penarikan saldo.
+  - `OWNER`: Pengelola gerai kafe (menu, laporan keuangan, shift kasir, manajemen staf).
+  - `CASHIER`: Pengoperasian transaksi harian dan buka/tutup shift.
+  - `KITCHEN`: Pengelolaan antrian dapur dan status masak.
+  - `WAITER`: Pemesanan meja dan pengantaran makanan.
+
+## 5. Tautan Penting
+- [Halaman Beranda](https://cafe.abstech.web.id/)
+- [Demo Kasir POS](https://cafe.abstech.web.id/pos)
+- [Unduh Aplikasi Android](https://cafe.abstech.web.id/download/app)
+- [Kebijakan Privasi](https://cafe.abstech.web.id/kebijakan-privasi)
+- [Dokumentasi Singkat llms.txt](https://cafe.abstech.web.id/llms.txt)
